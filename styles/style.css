@@ -1,0 +1,57 @@
+html {
+    background-color: rgb(50, 50, 236);
+    font-family: 'Delicious Handrawn', cursive;
+}
+body {
+    background-color: lavenderblush;
+    /* background-color: #f7ac43; */
+    width: 600px;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 0 20px 20px 20px;
+}
+
+img {
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size:60px;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+p, li {
+    font-size:24px;
+    line-height:2;
+    letter-spacing:1px;
+}
+.bold {
+    font-weight: bold;
+    color: rgba(193, 36, 193, 0.918);
+}
+/* Combined selector */
+li.bold{
+    font-style:italic;
+}
+
+p.bold{
+    text-decoration: underline;
+}
+
+.coolbox {
+    border: maroon dotted 3px;
+    border-radius: 5%;
+    padding: 0 20px;
+    margin: 10px;
+}
+
+/* p,li,h1 {
+    transition: transform .2s ease-in-out;
+}
+
+p:hover,li:hover,h1:hover {
+    transform: scale(1.2);
+} */
